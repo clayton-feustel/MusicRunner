@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         // Create the Google API Client
         mClient = new GoogleApiClient.Builder(this)
                 .addApi(Fitness.SENSORS_API)
-                .addScope(new Scope(Scopes.FITNESS_ACTIVITY_READ))
+                //.addScope(new Scope(Scopes.FITNESS_ACTIVITY_READ))
                 .addConnectionCallbacks(
                         new GoogleApiClient.ConnectionCallbacks() {
 
